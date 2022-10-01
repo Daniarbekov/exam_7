@@ -1,8 +1,11 @@
 {% extends 'base.html' %} 
+{% block title%}Create{% endblock %}
 {% block content %}
+<div class='form-box'>
     <form action= "{% url 'guest_create'%}" method="POST" 
         <div class='form'>
                 {%  include 'partial/guest_form.html'  with button_text='Добавить' %}
         </div>
     </form>
+</div>
 {% endblock %}
