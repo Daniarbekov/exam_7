@@ -3,7 +3,7 @@ from webapp.models import GuestBook
 from django.utils.translation import gettext_lazy as _
 
 
-class AuthorForm(ModelForm):
+class GuestBookForm(ModelForm):
     class Meta:
         model = GuestBook
         fields = ('author_name', 'author_email', 'text')

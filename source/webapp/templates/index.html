@@ -7,8 +7,8 @@
     <div class="card-body">
       <h5 class="card-title">{{guest.author_name}} ({{guest.author_email}})</h5>
       <div>
-      <a href="#"><i class="fa-solid fa-pen-to-square"></i></a>
-      <a href="{%  url 'guest_delete' guest.pk %}""><i class="fa-solid fa-eraser"></i></a>
+      <a href="{% url 'guest_update' guest.pk %}"><i class="fa-solid fa-pen-to-square"></i></a>
+      <a href="{% url 'guest_delete' guest.pk %}"><i class="fa-solid fa-eraser"></i></a>
       </div>
       <p class="card-text">{{guest.text}}</p>
     </div>

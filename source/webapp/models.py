@@ -12,3 +12,4 @@ class GuestBook(models.Model):
     created_at = models.DateTimeField(verbose_name='Дата создания',auto_now_add=True)
     changed_at = models.DateTimeField(verbose_name='Дата изменения',auto_now=True)
     
+    
