@@ -32,7 +32,7 @@ def guest_update_view(request, pk):
             'author_email': guest.author_email,
             'text':guest.text
         })
-        return render(request, 'update.html', context={'form': form})
+        return render(request, 'update.html', context={'form': form, 'guest': guest})
     elif request.method == 'POST':
         form = GuestBookForm(data=request.POST)
         if form.is_valid():
