@@ -1,0 +1,104 @@
+[
+{
+    "model": "webapp.guestbook",
+    "pk": 7,
+    "fields": {
+        "author_name": "John Doe",
+        "author_email": "john_doe@example.com",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui",
+        "status": "blocked",
+        "created_at": "2022-10-01T11:31:33.380Z",
+        "changed_at": "2022-10-01T11:36:01.109Z"
+    }
+},
+{
+    "model": "webapp.guestbook",
+    "pk": 8,
+    "fields": {
+        "author_name": "Vasilii Pupkimn",
+        "author_email": "vasya@vasay.com",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui",
+        "status": "active",
+        "created_at": "2022-10-01T11:32:08.556Z",
+        "changed_at": "2022-10-01T11:32:08.556Z"
+    }
+},
+{
+    "model": "webapp.guestbook",
+    "pk": 9,
+    "fields": {
+        "author_name": "Ivan",
+        "author_email": "Ivanov@qwe.com",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui",
+        "status": "active",
+        "created_at": "2022-10-01T11:32:46.592Z",
+        "changed_at": "2022-10-01T11:32:46.592Z"
+    }
+},
+{
+    "model": "webapp.guestbook",
+    "pk": 10,
+    "fields": {
+        "author_name": "Jane Doe",
+        "author_email": "jane@doe.com",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui",
+        "status": "active",
+        "created_at": "2022-10-01T11:33:10.239Z",
+        "changed_at": "2022-10-01T11:33:10.239Z"
+    }
+},
+{
+    "model": "webapp.guestbook",
+    "pk": 11,
+    "fields": {
+        "author_name": "Bob doe",
+        "author_email": "bob@bob.com",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui",
+        "status": "active",
+        "created_at": "2022-10-01T11:33:39.482Z",
+        "changed_at": "2022-10-01T11:33:39.482Z"
+    }
+},
+{
+    "model": "webapp.guestbook",
+    "pk": 12,
+    "fields": {
+        "author_name": "Ben Doe",
+        "author_email": "ben@ben.com",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui",
+        "status": "blocked",
+        "created_at": "2022-10-01T11:34:31.746Z",
+        "changed_at": "2022-10-01T11:36:18.903Z"
+    }
+},
+{
+    "model": "webapp.guestbook",
+    "pk": 13,
+    "fields": {
+        "author_name": "Yura Doe",
+        "author_email": "yura@doe.com",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui",
+        "status": "active",
+        "created_at": "2022-10-01T11:34:49.101Z",
+        "changed_at": "2022-10-01T11:34:49.101Z"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$O4DRlmIdHR9pSMCx9hpOnb$v7ldYB52UGIW46D4tVI4s6INFhA3F3Inb7YMI6oipJE=",
+        "last_login": "2022-10-01T05:48:44.981Z",
+        "is_superuser": true,
+        "username": "root",
+        "first_name": "",
+        "last_name": "",
+        "email": "root@root.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-10-01T05:48:27.033Z",
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]
