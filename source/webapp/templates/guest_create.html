@@ -1,6 +1,6 @@
 {% extends 'base.html' %} 
 {% block content %}
-    <form action= "" method="POST" 
+    <form action= "{% url 'guest_create'%}" method="POST" 
         <div class='form'>
                 {%  include 'partial/guest_form.html'  with button_text='Добавить' %}
         </div>

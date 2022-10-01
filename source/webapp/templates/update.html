@@ -1,8 +1,10 @@
 {% extends 'base.html' %} 
 {% block content %}
-    <form action= "" method="POST" 
+<div class='form-box'>
+    <form action= "{% url 'guest_update' guest.pk%}" method="POST" 
         <div class='form'>
                 {%  include 'partial/guest_form.html'  with button_text='Сохранить' %}
         </div>
     </form>
+</div>
 {% endblock %}
